@@ -1,0 +1,9 @@
+# ARC/INFO file created from ER Mapper D:\GISdatabank\GIS_raster\Shared_Data\SPOT_XS.ers file 
+byteorder I
+nbits 8
+xdim 20.0000000000000
+ydim 20.0000000000000
+ncols 750
+nbands 3
+ulxmap 475912.358766
+ulymap 3628696.776687

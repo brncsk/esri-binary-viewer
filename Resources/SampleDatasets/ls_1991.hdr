@@ -1,0 +1,10 @@
+# ARC/INFO file created from ER Mapper D:\GISdatabank\GIS_raster\Shared_Data\ls_1991.ers file 
+byteorder M
+nbits 8
+xdim 30.0000000000000
+ydim 30.0000000000000
+ncols 500
+nrows 500
+nbands 7
+ulxmap 475926.912642
+ulymap 3628700.286761

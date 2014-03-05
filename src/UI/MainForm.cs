@@ -18,6 +18,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -197,6 +198,10 @@ namespace ESRIBinaryViewer.UI
         /// </summary>
         private void btnLoadBIL_Click(object sender, EventArgs e) {
             OpenFileDialog fd = new OpenFileDialog();
+            fd.InitialDirectory = Path.Combine(
+                Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName,
+                "Resources", "SampleDatasets"
+            );
             fd.Filter = "ESRI binary raster files|*.bil; *.bip; *.bsq";
 
             if (fd.ShowDialog() == System.Windows.Forms.DialogResult.OK) {
